@@ -10,8 +10,7 @@ var SpeechRecognition = window.webkitSpeechRecognition;
   
 var recognition = new SpeechRecognition();
 function preload(){
-  loadImage('apple.png');
-  apple = 'apple.png';
+  apple = loadImage('apple.png');
 }
 
 function start()
