@@ -28,7 +28,7 @@ recognition.onresult = function(event) {
     document.getElementById("status").innerHTML = "The speech has been recognized: " + content;
     to_number = Number(content);
     if(Number.isInteger(to_number)){
-      document.getElementById("status").innerHTML = "Started drawing apple";
+      document.getElementById("status").innerHTML = "Started drawing apples";
       draw_apple = "set";
     } else {
       document.getElementById("status").innerHTML = "System has not recognized a number";
